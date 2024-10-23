@@ -391,6 +391,11 @@ PRODUCT_SOONG_NAMESPACES += \
     $(LOCAL_PATH) \
     hardware/oplus
 
+# Speed compiler filter    
+PRODUCT_DEXPREOPT_SPEED_APPS += \
+    Settings \
+    SystemUI
+
 # Telephony
 PRODUCT_PACKAGES += \
     extphonelib \
